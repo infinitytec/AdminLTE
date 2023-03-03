@@ -1466,8 +1466,13 @@ table.dataTable {
 .modal-success .modal-footer,
 .modal-danger .modal-body,
 .modal-danger .modal-header,
-.modal-danger .modal-footer {
+.modal-danger .modal-footer ,
+.modal-dialog {
   border-radius: 12px;
+}
+
+.modal-content {
+  background-color: #0f0f0f;
 }
 
 .alert {
